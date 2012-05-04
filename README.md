@@ -33,7 +33,7 @@ following line:
 
         #!/bin/sh
         source $OPENSHIFT_REPO_DIR/data/MONUPCO_SETTINGS
-        `npm bin`/monupco-openshift
+        $OPENSHIFT_GEAR_DIR/node_modules/.bin/monupco-openshift
 
 - Commit and push your application to OpenShift
 
