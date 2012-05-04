@@ -1,11 +1,11 @@
-{	"name" : "monupco-dotcloud-openshift"
+{	"name" : "monupco-openshift-nodejs"
 ,	"description" : "monupco.com registration agent for OpenShift / Node.js applications"
 ,	"version" : "0.0.1"
-,	"homepage": "https://github.com/monupco/monupco-dotcloud-openshift"
+,	"homepage": "https://github.com/monupco/monupco-openshift-nodejs"
 ,	"author" : "Svetlozar Argirov <zarrro@gmail.com>"
 ,	"repository": {
 		"type": "git",
-		"url": "git://github.com/monupco/monupco-dotcloud-openshift.git"
+		"url": "git://github.com/monupco/monupco-openshift-nodejs.git"
 	}
 , "dependencies": {
 		"common-nodejs-monupco":	""
