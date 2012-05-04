@@ -25,7 +25,7 @@ following line:
         },
         ...
 
-- Set your userID in the ./data/MONUPCO_SETTINGS file
+- Set your userID in the `./data/MONUPCO_SETTINGS` file
 
         echo "export MONUPCO_USER_ID=YourUserID"  > ./data/MONUPCO_SETTINGS
 
