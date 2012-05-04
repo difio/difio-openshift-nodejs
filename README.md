@@ -11,10 +11,9 @@ Installing on your OpenShift Node.js application
 
 - Create your Node.js application in OpenShift
 
-- Add a dependency to your application. In `deplist.txt` add the
-following line:
+- Add a dependency to your application:
 
-        monupco-openshift-nodejs
+        echo monupco-openshift-nodejs >> deplist.txt
 
 - If your application has a `package.json` file list the dependency there as well:
 
