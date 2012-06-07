@@ -32,7 +32,7 @@ Installing on your OpenShift Node.js application
 
         #!/bin/sh
         source $OPENSHIFT_REPO_DIR/data/MONUPCO_SETTINGS
-        $OPENSHIFT_GEAR_DIR/node_modules/.bin/monupco-openshift
+        $OPENSHIFT_REPO_DIR/node_modules/.bin/monupco-openshift
 
 - Commit and push your application to OpenShift
 
