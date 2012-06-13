@@ -31,8 +31,9 @@ Installing on your OpenShift Node.js application
 - Enable the registration script in `.openshift/action_hooks/post_deploy`
 
         #!/bin/sh
-        source $OPENSHIFT_REPO_DIR/data/MONUPCO_SETTINGS
-        $OPENSHIFT_REPO_DIR/node_modules/.bin/monupco-openshift
+        cd $OPENSHIFT_REPO_DIR
+        source data/MONUPCO_SETTINGS
+        node_modules/.bin/monupco-openshift
 
 - Commit and push your application to OpenShift
 
