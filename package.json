@@ -1,16 +1,16 @@
-{	"name" : "monupco-openshift-nodejs"
-,	"description" : "monupco.com registration agent for OpenShift / Node.js applications"
-,	"version" : "0.0.2"
-,	"homepage": "https://github.com/monupco/monupco-openshift-nodejs"
+{	"name" : "difio-openshift-nodejs"
+,	"description" : "Difio registration agent for OpenShift / Node.js applications"
+,	"version" : "2.0.0"
+,	"homepage": "https://github.com/difio/difio-openshift-nodejs"
 ,	"author" : "Svetlozar Argirov <zarrro@gmail.com>"
 ,	"repository": {
 		"type": "git",
-		"url": "git://github.com/monupco/monupco-openshift-nodejs.git"
+		"url": "git://github.com/difio/difio-openshift-nodejs.git"
 	}
 , "dependencies": {
-		"common-nodejs-monupco":	""
+		"common-nodejs-difio":	""
 	}
-,	"main" : "monupco-openshift.js"
+,	"main" : "difio-openshift.js"
 ,	"engines": { "node": "*" }
-,	"bin" : { "monupco-openshift" : "./monupco-openshift.js" }
+,	"bin" : { "difio-openshift" : "./difio-openshift.js" }
 }

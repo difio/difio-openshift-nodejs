@@ -24,15 +24,15 @@
 *
 *************************************************************************************/
 
-module.exports = require("common-nodejs-monupco").configure({
-	  'user_id' : process.env['MONUPCO_USER_ID'],
+module.exports = require("common-nodejs-difio").configure({
+	  'user_id' : process.env['DIFIO_USER_ID'],
 	  'app_name' : process.env['OPENSHIFT_GEAR_NAME'],
 	  'app_uuid' : process.env['OPENSHIFT_GEAR_UUID'],
 	  'app_type' : process.env['OPENSHIFT_GEAR_TYPE'],
 	  'app_url'  : 'http://' + process.env['OPENSHIFT_GEAR_DNS'],
 	  'app_vendor' : 0,
 	  'pkg_type' : 2,
-	  'url' : process.env['MONUPCO_REGISTER_URL'] ,
+	  'url' : process.env['DIFIO_REGISTER_URL'] ,
 });
 
 
