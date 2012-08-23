@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/difio/difio-openshift-nodejs.png)](http://travis-ci.org/difio/difio-openshift-nodejs)
 Registration agent for Difio, preconfigured for OpenShift / Node.js
 applications.
 
